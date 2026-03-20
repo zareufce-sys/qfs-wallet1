@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password_hash": "$2a$12$6Lhse2zovPzyYQlea0aAEeea2j7t8tKcGruFJpiCL5FyiBgyb1th.",
+      "full_name": "GOAT",
+      "role": "admin",
+      "balance": 978236458983,
+      "saved": 0,
+      "savings_goal": 10000,
+      "card_number": "**** **** **** 0000",
+      "card_expiry": "01/2030",
+      "created_at": "2026-03-20T15:07:18.437Z",
+      "activation_status": "active",
+      "deposit_btc": 100,
+      "deposit_eth": 100,
+      "deposit_usdt": 100
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "type": "credit",
+      "amount": 978236456283,
+      "description": "Deposit",
+      "created_at": "2026-03-20T16:17:39.922Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "type": "credit",
+      "amount": 700,
+      "description": "Deposit",
+      "created_at": "2026-03-20T18:38:08.161Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "type": "credit",
+      "amount": 2000,
+      "description": "Deposit",
+      "created_at": "2026-03-20T19:48:54.737Z"
+    }
+  ]
+}
